@@ -2,3 +2,8 @@ script: make release-all
 install: true
 go: 
 - 1.1
+go:
+
+
+soft tale"?
+
