@@ -6,4 +6,15 @@ go:
 
 
 soft tale"?
+// inventory.c
+
+extern int InStock(int id);
+
+int GetNextInStock()
+{
+  static int Current = 0;
+  while (!InStock(++Current)) { }
+  return Current;
+}
+
 
